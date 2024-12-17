@@ -12,6 +12,6 @@ def count_case_letters(text):
 
  
 text = input("Enter a string: ")
-upper, lower = count_case_letters(text)
-print(f"Number of uppercase letters: {upper}")
-print(f"Number of lowercase letters: {lower}")
+upper_count, lower_count = count_case_letters(text)
+print(f"Number of uppercase letters: {upper_count}")
+print(f"Number of lowercase letters: {lower_count}")
